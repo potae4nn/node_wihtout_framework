@@ -1,0 +1,33 @@
+{
+  "name": "node_wihtout_framework",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "es2020",
+    "outDir": "dist",
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "strict": true
+  },
+  "include": [
+    "./src"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
